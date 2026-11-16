@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://bskxt7emdyr32"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pl0ud"]
+bg_color = Color(0.49411765, 0.5529412, 1, 0.1254902)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vbnbe"]
+bg_color = Color(0, 0, 0, 0.41960785)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[node name="Level1" type="Node3D" unique_id=2008697099]
+
+[node name="background" type="Panel" parent="." unique_id=220758717]
+offset_right = 1151.0
+offset_bottom = 645.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_pl0ud")
+
+[node name="Panel" type="Panel" parent="." unique_id=77992554]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -159.0
+offset_top = 14.0
+offset_right = 159.0
+offset_bottom = 75.0
+grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_vbnbe")
